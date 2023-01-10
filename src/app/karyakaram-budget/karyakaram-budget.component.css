@@ -1,0 +1,9 @@
+.karya{
+    border: 2px solid red;
+    width: 73%;
+    height: 55rem;
+    position: absolute;
+    top: 117px;
+    left: 26%;
+    background-color: #fff;
+   }

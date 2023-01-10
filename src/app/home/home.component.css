@@ -1,0 +1,131 @@
+
+.contain{
+    background: #E5E5E5;
+    height: 120rem;
+    border: 4px solid black;
+}
+
+.navig{
+    margin-left: 40px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #f3f3f3;
+    background-color: #263A57;
+    
+}
+.Parichaye{
+    
+    width: 90%;
+    margin-left: 50px;
+}
+.page-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 60px;
+    color: #4A596B;
+    background-color: #fff;
+}
+
+.saff-table{
+    width: 100%;
+    height: 50px;
+    background: #E5E5E5;
+}
+
+.heading th{
+    padding-left: 64px;
+    padding-right: 113px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+}
+
+
+table{
+    background-color: #E5E5E5 ;
+   
+    border-collapse: separate;
+    border-spacing: 0 25px;
+}
+
+.staff{
+    border: 2px solid #bce117;
+}
+.staff-img img{
+    width: 40%;
+}
+.name{
+    padding-left: 35px;
+}
+.phone{
+    padding-left: 44px;
+}
+.padd{
+    padding-left: 35px;
+}
+
+tr{
+    /* border: 2px solid magenta; */
+    background: #fff;
+}
+
+/* VetBarta */
+
+.vetbarta{
+    border: 1px solid red;
+    margin-top: 30px;
+}
+.vetbarta h5{
+    color: #263A57;
+    font-weight: 600;
+    border-bottom: 2px solid #263A57; 
+    margin: 15px 0px;
+}
+
+
+/*Samiti CSS*/
+
+.samitiharu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ ul{
+    list-style: none;
+}
+.samitiharu li{
+    cursor: pointer;
+    border: 1px solid red;
+    text-align: center;
+    width: 17%;
+    margin: 15px 0px 0px 65px;
+    background-color:#263A57 ;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+/* table*/
+
+.tbl table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+  }
+
+ .tbl td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  .tbl th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  tr:nth-child(1) td,
+  tr:nth-child(2) td {
+    border: 0;
+  }

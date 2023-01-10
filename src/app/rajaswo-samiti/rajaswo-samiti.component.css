@@ -1,0 +1,37 @@
+.raja {
+  border: 2px solid red;
+  width: 73%;
+  height: 55rem;
+  position: absolute;
+  top: 117px;
+  left: 26%;
+  background-color: #fff;
+}
+p {
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #615e5e;
+}
+h5 {
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #4a596b;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+.list ul {
+  list-style: circle;
+}
+.right ul {
+  list-style: none;
+}
+
+.adhikar ul {
+  list-style: "\1F44D";
+  line-height: 2;
+}
