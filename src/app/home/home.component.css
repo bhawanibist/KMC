@@ -73,7 +73,7 @@ tr{
 /* VetBarta */
 
 .vetbarta{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 30px;
 }
 .vetbarta h5{
@@ -176,6 +176,4 @@ tr{
     line-height: 2;
    
 }
-.acco{
-    border: 1px solid red;
-}
+
