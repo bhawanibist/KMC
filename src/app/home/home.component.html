@@ -1,6 +1,6 @@
 <div class="contain">
   <h1>उप-प्रमुखको सचिवालय</h1>
-
+<div class="outer">
   <ul ngbNav #nav="ngbNav" class="nav-tabs navig">
     <li ngbNavItem class="navig">
       <a ngbNavLink routerLink="">गृहपृष्ठ</a>
@@ -41,7 +41,7 @@
 
                 <tr>
                   <td class="staff-img">
-                    <img src="assets/image/saurab.jpg" alt="img" />
+                    <img src="assets/image/anima dangol.jpg" alt="img" />
                   </td>
                   <td class="name">अनिमा डंगोल</td>
                   <td class="padd">सहायकस्तर चौथो</td>
@@ -51,7 +51,7 @@
 
                 <tr>
                   <td class="staff-img">
-                    <img src="assets/image/saurab.jpg" alt="img" />
+                    <img src="assets/image/prayash ghimire.jpg" alt="img" />
                   </td>
                   <td class="name">प्रयास घिमिरे</td>
                   <td class="padd">पि.एस.ओ</td>
@@ -61,7 +61,7 @@
 
                 <tr>
                   <td class="staff-img">
-                    <img src="assets/image/saurab.jpg" alt="img" />
+                    <img src="assets/image/samjhana pandey.jpg" alt="img" />
                   </td>
                   <td class="name">सम्झना पाण्डे</td>
                   <td class="padd">पि.एस.ओ</td>
@@ -201,11 +201,12 @@
         </div>
       </ng-template>
     </li>
-    <li ngbNavItem class="navig">
+    <!-- <li ngbNavItem class="navig">
       <a ngbNavLink>समितिहरु</a>
       <ng-template ngbNavContent>
         <ul class="samitiharu">
-          <li><a routerLink="nyaayik-samiti"> १. न्यायिक समिति </a></li>
+          <li><a 
+           routerLink="nyaayik-samiti"> १. न्यायिक समिति </a></li>
 
           <li><a routerLink="rajaswo-samiti"> २. राजश्व परामर्श समिति </a></li>
 
@@ -238,7 +239,471 @@
           </li>
         </ul>
       </ng-template>
+    </li> -->
+
+     <li ngbNavItem class="navig">
+      <a ngbNavLink routerLink="">न्यायिक समिति</a>
+      <ng-template ngbNavContent>
+        <div class="acco">
+          
+          <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel title="न्यायिक समितिको परिचय">
+              <ng-template ngbPanelContent>
+                <p>नेपालको संविधानको भाग १७ को धारा २१७ वमोजिम स्थानीयस्तरका विवाद निरुपण गर्न प्रत्येक गांउपालिका वा नगरपालिकाले
+                    गाँउपालिका वा
+                    नगरपालिकाको उपाध्यक्ष वा उपप्रमुखको संयोजकत्वमा तीन सदस्यीय एक न्यायिक समिति रहने व्यवस्था गरेको छ सो समितिमा
+                    गाउँसभा वा
+                    नगरसभाबाट आफूमध्येबाट निर्वाचित गरेका दुई जना सदस्यहरु रहनेछन । सोही व्यवस्थानुसार काठमाडौ महानगरपालिकाको मिति
+                    २०७८/३/२५
+                    गते भएको निर्वाचनमा सदस्य पदमा वडा नं. २९ का वडाध्यक्ष श्री कुश ढकाल र वडा नं. ११ का महिला वडा सदस्य श्री आशा
+                    रौनियार श्रेष्ठ
+                    निर्वाचित हुनु भई कार्य शुरु भएको छ ।</p>
+
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span>न्यायिक समितिका पदाधिकारीहरु :</span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                <div class="list">
+                  <div class="left">
+                      <ul>
+                          <li>उपप्रमुख श्री सुनिता डंगोल</li>
+                          <li>वडाध्यक्ष श्री कुश ढकाल</li>
+                          <li>महिला सदस्य श्री आशा रौनियार श्रेष्ठ</li>
+                      </ul>
+                  </div>
+                  <div class="right">
+                      <ul>
+                          <li>संयोजक</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                      </ul>
+                  </div>
+              </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="न्यायिक समितिका क्षेत्राधिकार :">
+              <ng-template ngbPanelContent>
+                <div class="adhikar">
+                  <ul>
+                    <li> आलीधुरी, बाँध पैनी, कुलो वा पानीघाटको वाडफोट तथा उपयोग, </li>
+                    <li>  अकांको वाली नोक्सानी गरेको, </li>
+                    <li> चरन, घाँस, दाउरा </li>
+                    <li>  ज्याला मजुरी नदिएको, </li>
+                    <li> घरपालुवा पशुपक्षी हराएको वा पाएको, </li>
+                    <li> घरपालुवा पशुपक्षी हराएको वा पाएको, </li>
+                    <li> जेष्ठ नागरिकको पालनपोषण तथा हेरचाह नगरेको, </li>
+                    <li>  नावालक छोरा छोरी वा पति पत्नीलाई इज्जत आमद अनुसार खाना लाउन वा शिक्षा नदिएको, </li>
+                    <li>  वार्षिक पच्चीस लाख रुपैयासम्मको विगो भएको घर वहाल र घर वहाल सुविधा, </li>
+                    <li>  अन्य व्याक्तिको घर, जग्गा वा सम्पतिलाई असर पर्ने गरी रुख विरुवा लगाएको, </li>
+                    <li> आफनो घर वा बलेसीबाट अर्काको घर, जग्गा वा सार्वजनिक बाटोमा पानी झारेको, </li>
+                    <li>  संधियारको जग्गा तर्फ झ्याल राखी घ। बनाउनु पर्दा कानून वमोजिम छोडनु पर्ने परिमाणको जग्गा नछोडी बनाएको, </li>
+                    <li>  कसैको हक वा स्वामित्वमा भए पनि परापूर्व देखि सार्वजनिक रुपमा प्रयोग हुदै आएको वाटो, वस्तुभाउ निकाल्ने निकास
+                        वस्तुभाउ चराउने चौर, कुलो नहर, पोखरी, पाटी पौवा, अन्त्यष्टि स्थल,धार्मिकस्थल वा अन्य कुनै सार्वजनिक स्थलको उपयोग
+                        गर्न नदिएको वा वाधा पुर्याएको, </li>
+                    <li>  संघीय वा प्रदेश कानूनले स्थानिय तहवाट निरुपण हुने भनी तोकेका अन्य विवाद, </li>
+                    </ul>
+              </div>
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+
+        </div>
+      </ng-template>
     </li>
+  
+    <!--Nyaaya Samiti End-->
+
+     <li ngbNavItem class="navig">
+      <a ngbNavLink routerLink="">राजश्व परामर्श समिति</a>
+      <ng-template ngbNavContent>
+        <div class="acco">
+          
+          <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel title="राजश्व परामर्श समितिको परिचय">
+              <ng-template ngbPanelContent>
+               
+                <p>स्थानीय सरकार संचालन ऐक, २०७४को परिच्छेद ९ को दफा ६५ अनुसार प्रत्येक गाउँपालिका वा नगरपालिकामा राजश्व सम्बन्धी
+                  परामर्शको लागि एक स्थानीय राजश्व परामर्श समिति गठन गरिनेछ । सो समितिमा गाउँपालिका वा नगरपालिकाको निर्वाचित
+                  उपाध्यक्ष वा उप प्रमुख संयोजक रहने व्यवस्था रहेको छ। समितिमा सम्बन्धित गाँउ/नगर कार्यपालिकाको प्रमुख प्रशासकीय
+                  अधिकृत, कार्यपालिकाले तोकेको कार्यपालिकाका सदस्य मध्येवाट एक जना महिला सहित दुइ जना सदस्य, निजीक्षेत्रको उद्योग
+                  बाणिज्य सम्बन्धी मान्यता प्राप्त संस्थाको नगर वा गाउँ तहको अध्यक्ष वा निजले तोकेको प्रतिनिधि सदस्य, घरेलु तथा
+                  साना उद्योग
+                  सम्वन्धी मान्यताप्राप्त संस्थाको नगर वा गाउँ तहको अध्यक्ष वा निजले तोकेको प्रतिनिधि सदस्य र सम्वन्धित राजश्व
+                  विभाग ।
+                  महाशाखा । शाखा को प्रमुख सदस्य सचिवको रुपमा रहने व्यवस्था गरेको छ । सोहीअनुसार काठमाडौ महानगरपालिकाको
+                  वडा नं. १४ का वडाध्यक्ष श्री सुमन श्रेष्ठ र काठमाडौ महानगरपालिका वडा नं. ५ का नगर कार्यपालिकाका सदस्य श्री मिना
+                  सिंह मनोनित हुनुभएको छ भने श्री संन्दिप अग्रवाल, प्रतिनिधि, उद्योग वाणिज्य महासंघश्री डोल्मा शेर्पा, प्रतिनिधि,
+                  घरेलु तथा
+                  साना उद्योग महासंघबाट प्रतिनिधित्व गर्नु भएको छ भने श्री शिवराज अधिकारी विभागीय प्रमुख राजश्व विभागले सो समितिको
+                  सदस्य सचिवका रुपमा कार्यरत रहनु भएको छ ।</p>
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span>हाल राजश्व परामर्श समितिमा देहायका पदाधिकारीहरु रहनु भएको छ :</span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                <div class="list">
+                  <div class="left">
+                      <ul>
+                          <li> श्री सुनिता डंगोल, उपप्रमुख</li>
+                          <li> श्री वसन्त अधिकारी, प्रमुख प्रशासकीय अधिकृत</li>
+                          <li>श्री सुमन श्रेष्ठ, अध्यक्ष वडा नं. १४</li>
+                          <li>श्री मिना सिंह, नगर कार्यपालिका सदस्य</li>
+                          <li>श्री सन्दिप अग्रवाल, प्रतिनिधि, उद्योग वाणिज्य महासंघ</li>
+                          <li>श्री डोल्मा शेर्पा, प्रतिनिधि, घरेलु तथा साना उद्योग महासंघ</li>
+                          <li> श्री शिवराज अधिकारी, विभागीय प्रमुख, राजश्व</li>
+                      </ul>
+                  </div>
+                  <div class="right">
+                      <ul>
+                          <li>संयोजक</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य सचिव</li>
+                      </ul>
+                  </div>
+              </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="राजश्व परामर्श समितिको काम, कर्तव्य र अधिकार:">
+              <ng-template ngbPanelContent>
+                <div class="adhikar">
+                <ul>
+                  <li> राजश्व सम्बन्धी नीति तथा कानूनको तर्जुमा, संशोधन, परिमार्जन र सोको परिपालनका सम्वन्धमा आवश्यक परामर्श
+                      प्रदान गर्ने, </li>
+                  <li> राजश्वका श्रोत, दायरा र दर समेतको विश्लेषण गरी आगामी आर्थिक वर्षमा प्राप्त हुन सक्ने राजश्वको अनुमान
+                      गर्ने, </li>
+                  <li> राजश्वका दर र क्षेत्र लगायतका आधारमा आन्तिरिक आयको विश्लेषण र अनुमान गर्ने, </li>
+                  <li> स्थानिय उद्योग तथा व्यवसाय प्रवर्दन र रोजगारी सिर्जनामा योगदान दिने किसिमको कर नीतिको सम्बन्धमा
+                      परामर्श दिने, </li>
+                  <li>कर राजश्व, गैरकर राजश्व, सेवा शुल्क, दस्तुर आदिको दर सम्वन्मा परामर्श दिने, </li>
+                  <li> राजश्व प्रशासन सुधारका लागि अन्य आवश्यक परामर्श दिने </li>
+              </ul>
+              </div>
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+
+        </div>
+      </ng-template>
+    </li>
+    
+    <!--Rajaswa Samiti End-->
+
+      <li ngbNavItem class="navig">
+      <a ngbNavLink routerLink="">कार्यक्रम बजेट तर्जुमा समिति</a>
+      <ng-template ngbNavContent>
+        <div class="acco">
+          
+          <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel title="कार्यक्रम बजेट तर्जुमा समितिको परिचय">
+              <ng-template ngbPanelContent>
+               
+
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span>कार्यक्रम बजेट तर्जुमा समितिका पदाधिकारीहरु :</span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                
+            
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="कार्यक्रम बजेट तर्जुमा समितिका क्षेत्राधिकार :">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+
+        </div>
+      </ng-template>
+    </li>
+     <!--Karyakaram Samiti End-->
+
+      <li ngbNavItem class="navig">
+      <a ngbNavLink routerLink="">कृषि मल अनुदान वितरण समिति </a>
+      <ng-template ngbNavContent>
+        <div class="acco">
+          
+          <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel title="कृषि मल अनुदान वितरण समितिको परिचय:">
+              <ng-template ngbPanelContent>
+               
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span>कृषि मल अनुदान वितरण समितिका पदाधिकारीहरु:</span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                <div class="list">
+                  <div class="left">
+                      <ul>
+                          <li> श्री सुनिता डंगोल, उपप्रमुख</li>
+                          <li> श्री वसन्त अधिकारी, प्रमुख प्रशासकीय अधिकृत</li>
+                          <li>श्री राजेन्द्र मानन्धर, अध्यक्ष वडा नं. २०</li>
+                          <li> श्री कञ्चन नेपाली हरिजन, सदस्य वडा नं. २३</li>
+                          <li>श्री वसन्त आचार्य, निर्देशक</li>
+                          <li>श्री राम बहादुर थापा, निर्देशक</li>
+                          <li> श्री नरेन्द्र विलास वज्राचार्य</li>
+                      </ul>
+                  </div>
+                  <div class="right">
+                      <ul>
+                          <li>संयोजक</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य सचिव</li>
+                      </ul>
+                  </div>
+              </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समितिले गरेको कार्यविवरणः">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+
+            <ngb-panel title="समितिकाले गरेको निर्णयहरु:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समाचार तथा फोटो ग्यालरी:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+
+        </div>
+      </ng-template>
+    </li> 
+
+     <!--Krishianudan Samiti End-->
+
+      <li ngbNavItem class="navig">
+      <a ngbNavLink routerLink="">अपांग परिचयपत्र वितरण समन्वय समिति</a>
+      <ng-template ngbNavContent>
+        <div class="acco">
+          
+          <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel title="अपांग परिचयपत्र वितरण समन्वय समितिको परिचय:">
+              <ng-template ngbPanelContent>
+               
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span>अपांग परिचयपत्र वितरण समन्वय समितिका पदाधिकारीहरु:</span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समिति गठन सम्वन्धी कानुनी व्यवस्था:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+
+            <ngb-panel title="समितिले गरेको कार्यविवरणः">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समिति गठन सम्वन्धी कानुनी व्यवस्था:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+
+        </div>
+      </ng-template>
+    </li> 
+
+      <!--Apanga Samiti End-->
+
+      <li ngbNavItem class="navig">
+      <a ngbNavLink routerLink="">सेनेटरी प्याड व्यवस्थापन तथा वितरण समिति</a> 
+      <ng-template ngbNavContent>
+        <div class="acco">
+          
+          <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel title="सेनेटरी प्याड व्यवस्थापन तथा वितरण समितिको परिचय:">
+              <ng-template ngbPanelContent>
+               
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span>सेनेटरी प्याड व्यवस्थापन तथा वितरण समितिका पदाधिकारीहरु:</span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                <div class="list">
+                  <div class="left">
+                      <ul>
+                          <li> श्री सुनिता डंगोल, उपप्रमुख</li>
+                          <li> श्री मैंया लक्ष्मी महर्जन, कार्यपालिका सदस्य, काठमाडौँ महानगरपालिका</li>
+                          <li>श्री दिपक अधिकारी, प्रमुख, सामाजिक विकास विभाग</li>
+                          <li> श्री नलि वज्राचार्य, स्वास्थ्य अधिकृत, काठमाडौँ महानगरपालिका</li>
+                          <li>श्री हेरम्वराज कंडेल, विद्यालय सम्पर्क व्यक्ति</li>
+                          <li>श्री रविना महर्जन, विद्यालय सम्पर्क व्यक्ति</li>
+                          <li> श्री सरस्वती पोखरेल, उपनिर्देशक, शिक्षा विभाग, काठमाडौं महानगरपालिका सदस्य सचिव</li>
+                      </ul>
+                  </div>
+                  <div class="right">
+                      <ul>
+                          <li>संयोजक</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य सचिव</li>
+                      </ul>
+                  </div>
+              </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समिति गठन सम्वन्धी कानुनी व्यवस्था:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+
+            <ngb-panel title="समितिले गरेको कार्यविवरणः">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समितिकाले गरेको निर्णयहरु:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समाचार तथा फोटो ग्यालरी:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+
+        </div>
+      </ng-template>
+    </li> 
+
+     <!--SanitaryPad Samiti End-->
+
+     <li ngbNavItem class="navig">
+      <a ngbNavLink routerLink="">बजार व्यवस्थापन तथा उपभोक्ता हित संरक्षण समिति </a> 
+      <ng-template ngbNavContent>
+        <div class="acco">
+          
+          <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel title="बजार व्यवस्थापन तथा उपभोक्ता हित संरक्षण समितिको परिचय:">
+              <ng-template ngbPanelContent>
+               
+                <p>स्थानीय सरकार संचालन ऐक, २०७४को परिच्छेद ९ को दफा ६५ अनुसार प्रत्येक गाउँपालिका वा नगरपालिकामा राजश्व सम्बन्धी
+                  परामर्शको लागि एक स्थानीय राजश्व परामर्श समिति गठन गरिनेछ । सो समितिमा गाउँपालिका वा नगरपालिकाको निर्वाचित
+                  उपाध्यक्ष वा उप प्रमुख संयोजक रहने व्यवस्था रहेको छ। समितिमा सम्बन्धित गाँउ/नगर कार्यपालिकाको प्रमुख प्रशासकीय
+                  अधिकृत, कार्यपालिकाले तोकेको कार्यपालिकाका सदस्य मध्येवाट एक जना महिला सहित दुइ जना सदस्य, निजीक्षेत्रको उद्योग
+                  बाणिज्य सम्बन्धी मान्यता प्राप्त संस्थाको नगर वा गाउँ तहको अध्यक्ष वा निजले तोकेको प्रतिनिधि सदस्य, घरेलु तथा
+                  साना उद्योग
+                  सम्वन्धी मान्यताप्राप्त संस्थाको नगर वा गाउँ तहको अध्यक्ष वा निजले तोकेको प्रतिनिधि सदस्य र सम्वन्धित राजश्व
+                  विभाग ।
+                  महाशाखा । शाखा को प्रमुख सदस्य सचिवको रुपमा रहने व्यवस्था गरेको छ । सोहीअनुसार काठमाडौ महानगरपालिकाको
+                  वडा नं. १४ का वडाध्यक्ष श्री सुमन श्रेष्ठ र काठमाडौ महानगरपालिका वडा नं. ५ का नगर कार्यपालिकाका सदस्य श्री मिना
+                  सिंह मनोनित हुनुभएको छ भने श्री संन्दिप अग्रवाल, प्रतिनिधि, उद्योग वाणिज्य महासंघश्री डोल्मा शेर्पा, प्रतिनिधि,
+                  घरेलु तथा
+                  साना उद्योग महासंघबाट प्रतिनिधित्व गर्नु भएको छ भने श्री शिवराज अधिकारी विभागीय प्रमुख राजश्व विभागले सो समितिको
+                  सदस्य सचिवका रुपमा कार्यरत रहनु भएको छ ।</p>
+                
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span>बजार व्यवस्थापन तथा उपभोक्ता हित संरक्षण समितिका पदाधिकारीहरु :</span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                <div class="list">
+                  <div class="left">
+                      <ul>
+                          <li> श्री सुनिता डंगोल, उपप्रमुख</li>
+                          <li> श्री वसन्त अधिकारी, प्रमुख प्रशासकीय अधिकृत</li>
+                          <li> श्री न्हुच्छे काजी महर्जन, अध्यक्ष वडा नं. १८</li>
+                          <li>श्री राजेश डंगोल, अध्यक्ष वडा नं. २५</li>
+                          <li>श्री भाई राम खड्गी, अध्यक्ष वडा नं. २८</li>
+                          <li>श्री प्रकाश पोखरेल, प्रशासकीय अधिकृत, जिल्ला प्रशासन कार्याल काठमाडौं</li>
+                          <li>श्री प्रतिनिधी, महानगरको क्षेत्रभित्र कार्यरत विभिन्न वस्तु र सेवा क्षेत्रका महानगरपालिका, सङ्घीय वा प्रदेश सरकार अर्न्तगतका कार्यालय</li>
+                          <li>श्री प्रतिनिधि, उद्योग वाणिज्य संघ काठमाडौंको अध्यक्ष</li>
+                          <li>श्री प्रतिनिधी, महानगरपालिकाले तोकेको उपभोक्ता हित संरक्षणमा सकिय संघ संस्था</li>
+                          <li>श्री बलराम त्रिपाठी, विभागिय प्रमुख, स्वास्थ्य विभाग</li>
+                      </ul>
+                  </div>
+                  <div class="right">
+                      <ul>
+                          <li>संयोजक</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य</li>
+                          <li>सदस्य सचिव</li>
+                      </ul>
+                  </div>
+              </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समितिले गरेको कार्यविवरण:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+
+            <ngb-panel title="समितिकाले गरेको निर्णयहरु:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+
+            <ngb-panel title="समाचार तथा फोटो ग्यालरी:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+
+        </div>
+      </ng-template>
+    </li>
+
+     <!--Bazzarbewasthpan Samiti End-->
+
   </ul>
+  </div>
+
   <div [ngbNavOutlet]="nav"></div>
 </div>

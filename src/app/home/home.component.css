@@ -129,3 +129,53 @@ tr{
   tr:nth-child(2) td {
     border: 0;
   }
+
+  
+
+  /* practise*/
+
+  .green {
+    background-color: green;
+    color: #bce117;
+  }
+  
+  .new{
+    border: 2px solid green;
+   
+  }
+  
+  .outer{
+    border-bottom: 4px double #4d5868;
+    
+  }
+
+  /*According CSS*/
+
+  .acco p{
+    
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        color: #fff;
+        background: #263A57;
+    
+  }
+  .list
+{
+    display: flex;
+    flex-direction: row;
+}
+.list ul{
+    list-style:circle;
+}
+.right ul{
+    list-style: none;
+}
+.adhikar ul{
+    list-style:"\1F44D";
+    line-height: 2;
+   
+}
+.acco{
+    border: 1px solid red;
+}
