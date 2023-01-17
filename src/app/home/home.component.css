@@ -191,3 +191,17 @@ tr{
 .down{
     border: 2px solid hotpink;
 }
+
+
+.first{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 9%;
+}
+.second{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    width: 8%;
+}
