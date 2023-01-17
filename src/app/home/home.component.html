@@ -1,5 +1,5 @@
 <div class="contain">
-  <h1>उप-प्रमुखको सचिवालय</h1>
+  <h1 style="text-align: center; color: #263A57; margin-top: 2px;">उप-प्रमुखको सचिवालय </h1>
 <div class="outer">
   <ul ngbNav #nav="ngbNav" class="nav-tabs navig">
     <li ngbNavItem class="navig">
@@ -41,7 +41,7 @@
 
                 <tr>
                   <td class="staff-img">
-                    <img src="assets/image/anima.jpg" alt="img" />
+                    <img src="assets/image/anima dangol.jpg" alt="img" />
                   </td>
                   <td class="name">अनिमा डंगोल</td>
                   <td class="padd">सहायकस्तर चौथो</td>
@@ -51,7 +51,7 @@
 
                 <tr>
                   <td class="staff-img">
-                    <img src="assets/image/prayash.jpg" alt="img" />
+                    <img src="assets/image/prayash ghimire.jpg" alt="img" />
                   </td>
                   <td class="name">प्रयास घिमिरे</td>
                   <td class="padd">पि.एस.ओ</td>
@@ -61,7 +61,7 @@
 
                 <tr>
                   <td class="staff-img">
-                    <img src="assets/image/samjhana.jpg" alt="img" />
+                    <img src="assets/image/samjhana pandey.jpg" alt="img" />
                   </td>
                   <td class="name">सम्झना पाण्डे</td>
                   <td class="padd">पि.एस.ओ</td>
@@ -70,7 +70,7 @@
                 </tr>
                 <tr>
                   <td class="staff-img">
-                    <img src="assets/image/saurab.jpg" alt="img" />
+                    <img src="assets/image/photof.png" alt="img" />
                   </td>
                   <td class="name">नारायणी थापा मगर</td>
                   <td class="padd">कार्यालय सहयोगी</td>
@@ -80,7 +80,7 @@
 
                 <tr>
                   <td class="staff-img">
-                    <img src="assets/image/saurab.jpg" alt="img" />
+                    <img src="assets/image/photom.png" alt="img" />
                   </td>
                   <td class="name">यज्ञ प्रसाद चौलागाई</td>
                   <td class="padd">कार्यालय सहयोगी</td>
@@ -173,7 +173,7 @@
 
           <div class="vetbarta">
             <ul>
-              <li>
+              <!-- <li>
                 <h5>विदेशी नियोगहरुवाट भएका शिष्टचार भेटवार्ताको विवरणः</h5>
                 <p>क. भेट गरिएको अधिकारीको नामथरः</p>
                 <p>ख. कार्यालय / संस्थान / देश:</p>
@@ -184,7 +184,7 @@
                   <li>छलफलको विषय</li>
                   <li>निष्कंप / उपलब्धी</li>
                 </ul>
-              </li>
+              </li> -->
               <li>
                 <h5>
                   सचिवालयमा प्राप्त हुन आएका गुनासो र सोको सुनबाई (अन्तर विभाग
@@ -240,6 +240,74 @@
         </ul>
       </ng-template>
     </li> -->
+
+<!--new added start-->
+
+<li ngbNavItem class="navig">
+  <a ngbNavLink routerLink="">विदेशी नियोगहरुवाट भएका शिष्टचार भेटवार्ता</a>
+  <ng-template ngbNavContent>
+    <div class="acco2">
+      
+      <div class="tbl">
+        <table>
+          <tr>
+            <td colspan="7" style="border: 1px solid black; text-align: center">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="7" style="
+                background-color: #124f9f;
+                color: #ffffff;
+                text-align: center;
+              ">
+              • विदेशी नियोगहरुवाट भएका शिष्टचार भेटवार्ताको विवरणः
+            </td>
+          </tr>
+          <tr class="heading">
+            <td>भेट गरिएको अधिकारीको नामथर</td>
+            <td>कार्यालय / संस्थान / देश</td>
+            <td>कार्यक्रम विवरण</td>
+            <td>मिति</td>
+            <td>स्थान &nbsp; &nbsp;</td>
+            <td>छलफलको विषय</td>
+            <td>निष्कंप / उपलब्धी</td>
+          </tr>
+          <tr class="bord">
+            <td class="down">.</td>
+            <td>.</td>
+            <td>.</td>
+            <td><input type="date">.</td>
+            <td>.</td>
+            <td>.</td>
+            <td><input type="file"> </td>
+          </tr>
+          <tr class="bord">
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td><input type="date">.</td>
+            <td>.</td>
+            <td>.</td>
+            <td><input type="file"> </td>
+          </tr>
+          <tr class="bord">
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td><input type="date">.</td>
+            <td>.</td>
+            <td>.</td>
+            <td><input type="file"> </td>
+          </tr>
+        </table>
+
+      </div>
+
+    </div>
+  </ng-template>
+</li>
+
+<!--new added ends-->
 
      <li ngbNavItem class="navig">
       <a ngbNavLink routerLink="">न्यायिक समिति</a>
@@ -306,6 +374,11 @@
                     <li>  संघीय वा प्रदेश कानूनले स्थानिय तहवाट निरुपण हुने भनी तोकेका अन्य विवाद, </li>
                     </ul>
               </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="समाचार तथा फोटो ग्यालरी:">
+              <ng-template ngbPanelContent>
+                
               </ng-template>
             </ngb-panel>
           </ngb-accordion>
@@ -390,6 +463,11 @@
               </div>
               </ng-template>
             </ngb-panel>
+            <ngb-panel title="समाचार तथा फोटो ग्यालरी:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
           </ngb-accordion>
 
         </div>
@@ -399,7 +477,7 @@
     <!--Rajaswa Samiti End-->
 
       <li ngbNavItem class="navig">
-      <a ngbNavLink routerLink="">कार्यक्रम बजेट तर्जुमा समिति</a>
+      <a ngbNavLink routerLink=""> बजेट तथा कार्यक्रम तर्जुमा समिति</a>
       <ng-template ngbNavContent>
         <div class="acco">
           
@@ -424,6 +502,11 @@
                 
               </ng-template>
             </ngb-panel>
+            <ngb-panel title="समाचार तथा फोटो ग्यालरी:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
           </ngb-accordion>
 
         </div>
@@ -432,12 +515,12 @@
      <!--Karyakaram Samiti End-->
 
       <li ngbNavItem class="navig">
-      <a ngbNavLink routerLink="">कृषि मल अनुदान वितरण समिति </a>
+      <a ngbNavLink routerLink="">अनुदानको मल वितरण व्यवस्थापन समिति </a>
       <ng-template ngbNavContent>
         <div class="acco">
           
           <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
-            <ngb-panel title="कृषि मल अनुदान वितरण समितिको परिचय:">
+            <ngb-panel title="अनुदानको मल वितरण व्यवस्थापन समितिको परिचय:">
               <ng-template ngbPanelContent>
                
                 
@@ -445,7 +528,7 @@
             </ngb-panel>
             <ngb-panel>
               <ng-template ngbPanelTitle>
-                <span>कृषि मल अनुदान वितरण समितिका पदाधिकारीहरु:</span>
+                <span>अनुदानको मल वितरण व्यवस्थापन समितिका पदाधिकारीहरु:</span>
               </ng-template>
               <ng-template ngbPanelContent>
                 <div class="list">
@@ -534,6 +617,11 @@
                 
               </ng-template>
             </ngb-panel>
+            <ngb-panel title="समाचार तथा फोटो ग्यालरी:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
           </ngb-accordion>
 
         </div>
@@ -543,12 +631,12 @@
       <!--Apanga Samiti End-->
 
       <li ngbNavItem class="navig">
-      <a ngbNavLink routerLink="">सेनेटरी प्याड व्यवस्थापन तथा वितरण समिति</a> 
+      <a ngbNavLink routerLink=""> सेनेटरी प्याड वितरण तथा व्यवस्थापन समिति</a> 
       <ng-template ngbNavContent>
         <div class="acco">
           
           <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
-            <ngb-panel title="सेनेटरी प्याड व्यवस्थापन तथा वितरण समितिको परिचय:">
+            <ngb-panel title="सेनेटरी प्याड वितरण तथा व्यवस्थापन समितिको परिचय:">
               <ng-template ngbPanelContent>
                
                 
@@ -556,7 +644,7 @@
             </ngb-panel>
             <ngb-panel>
               <ng-template ngbPanelTitle>
-                <span>सेनेटरी प्याड व्यवस्थापन तथा वितरण समितिका पदाधिकारीहरु:</span>
+                <span>सेनेटरी प्याड वितरण तथा व्यवस्थापन समितिका पदाधिकारीहरु:</span>
               </ng-template>
               <ng-template ngbPanelContent>
                 <div class="list">
@@ -701,6 +789,45 @@
     </li>
 
      <!--Bazzarbewasthpan Samiti End-->
+
+     <li ngbNavItem class="navig">
+      <a ngbNavLink routerLink=""> अनुगमन तथा मुल्याङकन समिति</a>
+      <ng-template ngbNavContent>
+        <div class="acco">
+          
+          <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel title="अनुगमन तथा मुल्याङकन समितिको परिचय">
+              <ng-template ngbPanelContent>
+               
+
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span>अनुगमन तथा मुल्याङकन समितिका पदाधिकारीहरु :</span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                
+            
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="अनुगमन तथा मुल्याङकन समितिका क्षेत्राधिकार :">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+              
+            </ngb-panel>
+            <ngb-panel title="समाचार तथा फोटो ग्यालरी:">
+              <ng-template ngbPanelContent>
+                
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+
+        </div>
+      </ng-template>
+    </li>
+    <!--Anugaman Samiti end-->
 
   </ul>
   </div>

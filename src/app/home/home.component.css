@@ -1,8 +1,8 @@
 
 .contain{
     background: #E5E5E5;
-    height: 120rem;
-    border: 4px solid black;
+    /* height: 120rem;
+    border: 4px solid black; */
 }
 
 .navig{
@@ -176,4 +176,18 @@ tr{
     line-height: 2;
    
 }
+.acco{
+    border: 1px solid red;
+}
 
+.acco2{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.tbl td{
+    font-weight: 600;
+}
+
+.down{
+    border: 2px solid hotpink;
+}
